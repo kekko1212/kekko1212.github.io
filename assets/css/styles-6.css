@@ -55,7 +55,7 @@ p {
   background: #4B6A78;
   position: absolute;
   right: 0;
-  width: 240px;
+  width: 300px;
   height: 100%;
   min-height: 800px;
   color: #fff;
@@ -84,9 +84,10 @@ p {
 }
 .sidebar-wrapper .profile {
   margin-bottom: 15px;
+  border-radius: 50%;
 }
 .sidebar-wrapper .contact-list .fa {
-  margin-right: 5px;
+  margin-right: 10px;
   font-size: 18px;
   vertical-align: middle;
 }
@@ -155,7 +156,7 @@ p {
 .main-wrapper {
   background: #fff;
   padding: 60px;
-  padding-right: 300px;
+  padding-right: 360px;
 }
 .main-wrapper .section-title {
   text-transform: uppercase;
@@ -256,6 +257,9 @@ p {
 .footer .fa-heart {
   color: #fb866a;
 }
+.img-pdf {
+  width: 100%;
+}
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .sidebar-wrapper {
@@ -273,6 +277,11 @@ p {
   .main-wrapper .upper-row {
     margin-bottom: 0;
   }
+  .img-pdf {
+    width: 40%;
+    margin: auto;
+    display: block;
+  }
 }
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
@@ -280,12 +289,12 @@ p {
   .skillset .level-title {
     display: inline-block;
     float: left;
-    width: 30%;
+    width: 35%;
     margin-bottom: 0;
   }
   .skillset .level-bar {
     display: inline-block;
-    width: 70%;
+    width: 65%;
     float: left;
     position: relative;
     top: 1px;
